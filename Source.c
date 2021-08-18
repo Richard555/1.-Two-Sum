@@ -26,7 +26,7 @@ int* twoSum(int* nums, int numsSize, int target, int* returnSize) {
 }
 void main(void)
 {
-    int nums[] = { 2, 7, 11, 15 };
+    int nums[] = { 3, 7, 11, 15 };
     int target = 9;
     int* panswer = NULL ;
     int RetSize;
