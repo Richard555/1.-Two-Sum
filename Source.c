@@ -28,7 +28,7 @@ void main(void)
 {
     int nums[] = { 3, 8, 12, 22 };
     int target = 20;
-    int* panswer = NULL ;
+    int* panswer = NULL;
     int RetSize;
 
     panswer = twoSum(nums, sizeof(nums) / sizeof(int), target, &RetSize);
