@@ -32,5 +32,5 @@ void main(void)
     int RetSize;
 
     panswer = twoSum(nums, sizeof(nums) / sizeof(int), target, &RetSize);
-    printf("[%d,  %d]", panswer[0], panswer[1]);
+    printf("[%d, %d]", panswer[0], panswer[1]);
 }
